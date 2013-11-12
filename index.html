@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Daily Bruin Graphics</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<style type="text/css">
+	@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('BebasNeue-webfont.eot');
+    src: url('BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BebasNeue-webfont.woff') format('woff'),
+         url('BebasNeue-webfont.ttf') format('truetype'),
+         url('BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+	* {
+		font-family:'BebasNeueRegular';
+		color:white;
+		-webkit-font-smoothing:antialiased;
+		-webkit-text-stroke:1px black;
+	}
+	body {
+        background: url('background.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color:black;
+	}
+	h1 {
+		font-size:60px;
+		line-height:54px;
+		display:block;
+		float:left;
+		position:absolute;
+		left:10%;
+		bottom:30px;
+		padding:0;
+	}
+	h1 span {
+		opacity:0;
+	}
+	a {
+		text-decoration:none;
+	}
+	a:hover {
+		opacity:0.8;
+	}
+	</style>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('h1 span').delay(1000).animate({'opacity':'0.2'},2000);
+	});
+	</script>
+</head>
+<body>
+<h1><a href="http://dailybruin.com">Daily Bruin</a><br />Graphics<br /><span>Coming Soon</span></h1>
+</body>
+</html>

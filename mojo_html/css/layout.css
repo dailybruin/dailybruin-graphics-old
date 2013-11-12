@@ -1,0 +1,200 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+	
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		ul.db_sections {
+			font-size: 14px;
+		}
+		span.logo_desc {
+			left: 0px !important;
+			padding-bottom: 14px !important;
+			padding-top:6px !important;
+			padding-left:10px;
+			position: relative;
+			width:165px;
+			display:block;
+		}
+		
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.db_link {
+			text-align:center;
+		}
+		span.db_section {
+			display:none !important;
+		}
+		span.logo_desc {
+			left: 0px !important;
+			padding-bottom: 10px !important;
+			padding-top:14px !important;
+			padding-left:10px;
+			position: relative;
+			width:200px;
+			display: block;
+
+		}
+		span.logo_desc a:first-child {
+			font-size: 17px !important;
+			font-weight: 800;
+		}
+		input#searchbox {
+			width:98% !important;
+		}
+		.right_sidebar {
+			background-color: white;
+			margin-top: 0px !important;
+			box-shadow: -2px 0 4px -2px #666;
+			-webkit-box-shadow: -2px 0 4px -2px #666;
+			-moz-box-shadow: -2px 0 4px -2px #666;
+			width:50% !important;
+			float:left;
+			position:relative;
+			z-index:30;
+			text-align:center;
+			height:75px;
+		}
+		.right_sidebar div {
+			padding:5px;
+		}
+		.time {
+			display:none;
+		}
+		div.live {
+			width:auto !important;
+		}
+		.mobileSocialMedia {
+			box-shadow: 2px 0 4px -2px #666;
+			-webkit-box-shadow: 2px 0 4px -2px #666;
+			-moz-box-shadow: 2px 0 4px -2px #666;
+		}
+		.mobileSocialMedia h2 {
+			font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			font-size: 12px;
+			line-height: 14px;
+			padding:5px;
+			text-align:center;
+			font-weight:800;
+			padding-bottom:0;
+			margin-bottom:8px;
+		}
+		.mobileSocialMedia ul {
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+		.mobileSocialMedia ul li {
+			margin:5px;
+		}
+		.mobileSocialMedia ul li a {
+			text-decoration:none;
+		}
+		.mobileSocialMedia ul li img {
+			margin-right:4px;
+			position:relative;
+			top:2px;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		nav#left_sidebar {
+			display:none;
+		}
+		h1 {
+			font-size: 33px;
+			line-height: 33px;
+		}
+		figcaption {
+			display:none;
+		}
+		nav#pages {
+			width:64px;
+		}
+		span.logo_desc {
+			width: 145px;
+		}
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		nav#left_sidebar {
+			display:none;
+		}
+		h1 {
+			font-size: 33px;
+			line-height: 33px;
+		}
+		figcaption {
+			display:none;
+		}
+		span.logo_desc {
+			width:135px;
+			font-size: 14px !important;
+		}
+		.article_text figure {
+			max-width: 100%;
+			height: auto;
+			margin:0;
+			padding:0;
+			position:relative;
+			left:-9px;
+		}
+		nav#pages {
+			text-align: center !important;
+			max-width: 100% !important;
+		}
+		nav#pages ul li {
+			display:inline;
+			margin:0 8px !important;
+		}
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
